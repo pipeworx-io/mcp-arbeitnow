@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arbeitnow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Arbeitnow Job Board MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arbeitnow": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arbeitnow"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arbeitnow"
+    "url": "git+https://github.com/pipeworx-io/mcp-arbeitnow.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-3d49a7a91eed45cf9efa1968bd2d8e313b1f419b5e767bce6dc5ac1aeb2286be",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
