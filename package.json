@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arbeitnow",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Arbeitnow Job Board MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "arbeitnow",
     "gatewaySlug": "arbeitnow",
-    "sourceHash": "v1-3bc3c11568de52524d5567fb45a22eb6b80906271d770692cb07aeabf3da8ce1",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-e9a1d73bf46feba3fbbb77eeb4f0478f06e0f2d449b3c301987533d875e6d7a0",
+    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
   }
 }
